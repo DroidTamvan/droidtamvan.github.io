@@ -1,7 +1,7 @@
-var cacheNames = 'v2';
-var urlsToCache = [
+var cacheNames = 'cache-v2';
+var fileCache = [
   '/',
-  '/favicon.ico',
+  'asset/favicon.ico',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@1.8/donation.png',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@1.8/DT-XrX.webp',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@1.8/thumbnail-yt.webp',
@@ -12,57 +12,32 @@ var urlsToCache = [
 ];
 
 self.addEventListener('install', function(event) {
-  // Perform install steps
   event.waitUntil(
-    caches.open(cacheNames)
-      .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
+    caches.open(cacheNames).then(function(cache) {
+        return cache.addAll(fileCache);
+      }).then(function(){
+        return self.skipWaiting();
       })
   );
 });
 
 self.addEventListener('activate', function(event) {
-
-  var cacheWhitelist = ['v2'];
-
   event.waitUntil(
-    caches.keys().then(function(cacheNames) {
-      return Promise.all(
-        cacheNames.map(function(cacheName) {
-          if (cacheWhitelist.indexOf(cacheName) === -1) {
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    })
-  );
+    caches.keys().then(keyList => {
+      return Promise.all(keyList.map(key => {
+        if (key !== cacheNames){
+          return caches.delete(key);
+        }
+      }));
+    }));
+  return self.clients.claim();
 });
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request)
       .then(function(response) {
-        if (response) {
-          return response;
-        }
-        var fetchRequest = event.request.clone();
-
-        return fetch(fetchRequest).then(
-          function(response) {
-            if(!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
-            var responseToCache = response.clone();
-
-            caches.open(cacheNames)
-              .then(function(cache) {
-                cache.put(event.request, responseToCache);
-              });
-
-            return response;
-          }
-        );
+        return response || fetch(event.request);
       })
     );
 });
