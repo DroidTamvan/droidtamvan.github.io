@@ -24,7 +24,7 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['v1'];
+  var cacheWhitelist = ['v2'];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
