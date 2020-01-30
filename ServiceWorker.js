@@ -1,4 +1,4 @@
-var cacheNames = 'cache-v2';
+var cacheNames = 'cache-v3';
 var fileCache = [
   'asset/favicon.ico',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@1.8/donation.png',
