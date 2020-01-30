@@ -1,8 +1,8 @@
-var cacheNames = 'cache-v5';
+var cacheNames = 'cache-v6';
 var fileCache = [
   '/',
   'asset/favicon.ico',
-  '/app.js',
+  'asset/js/app.js',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@1.8/donation.png',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@1.8/DT-XrX.webp',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@1.8/thumbnail-yt.webp',
