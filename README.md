@@ -1,2 +1,2 @@
 # DroidTamvan
-[droidtamvan.github.io](https://droidtamvan.github.io){:target="_blank" rel="noopener"}
+[droidtamvan.github.io](https://droidtamvan.github.io){:target="_blank"}
