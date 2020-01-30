@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /asset/
+Disallow: /404.html
+Disallow: /README.md
+
+Sitemap: https://droidtamvan.github.io/sitemap.xml
