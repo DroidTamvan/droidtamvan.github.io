@@ -1,4 +1,4 @@
-var cacheNames = 'cache-v1';
+var cacheNames = 'cache-v0';
 var fileCache = [
   '/',
   'asset/favicon.ico',
