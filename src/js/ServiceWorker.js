@@ -1,4 +1,4 @@
-var cacheNames = 'cache-2342wds';
+var cacheNames = 'cache-awd234z897xceg';
 var fileCache = [
   './favicon.ico',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io/src/img/1-min.jpg',
@@ -10,7 +10,7 @@ var fileCache = [
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io/src/img/SAMPM.jpg',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@2e3ecd3/src/js/jquery.js',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@2e3ecd3/src/css/bootstrap.css',
-  'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@55d3eb9/src/js/bootstrap.js'
+  'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@241472f/src/js/bootstrap.js'
 ];
 
 self.addEventListener('install', function (event) {
