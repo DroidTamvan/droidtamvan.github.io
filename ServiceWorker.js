@@ -1,4 +1,4 @@
-var cacheNames = 'cache-asw';
+var cacheNames = 'cache-aswerw';
 var fileCache = [
   './favicon.ico',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io/src/img/1-min.jpg',
