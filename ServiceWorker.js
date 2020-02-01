@@ -1,4 +1,4 @@
-var cacheNames = 'cache-v7b';
+var cacheNames = 'cache-v7i';
 var fileCache = [
   '/',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@2.0/favicon.ico',
