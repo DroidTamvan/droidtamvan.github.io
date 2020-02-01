@@ -1,6 +1,5 @@
-var cacheNames = 'cache-v7i';
+var cacheNames = 'cache-v7q';
 var fileCache = [
-  '/',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@2.0/favicon.ico',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@2.0/donation.png',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@2.0/DT-XrX.webp',
