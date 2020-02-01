@@ -1,4 +1,4 @@
-var cacheNames = 'cache-asdawdasd';
+var cacheNames = 'cache-as';
 var fileCache = [
   './favicon.ico',
   'https://2.bp.blogspot.com/-eeT0PbyC26U/Xcg-l9eXVxI/AAAAAAAAAe0/xRbp8w_-x_o4phNWS8YnqAMS34tXfMukwCLcBGAsYHQ/s1600/1-min.jpg',
