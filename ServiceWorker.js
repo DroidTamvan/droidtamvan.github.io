@@ -1,6 +1,6 @@
-var cacheNames = 'cache-243ew';
+var cacheNames = 'cache-asdawdasd';
 var fileCache = [
-  'https://cdn.jsdelivr.net/gh/DroidTamvan/css-js@2.3/favicon.ico',
+  './favicon.ico',
   'https://2.bp.blogspot.com/-eeT0PbyC26U/Xcg-l9eXVxI/AAAAAAAAAe0/xRbp8w_-x_o4phNWS8YnqAMS34tXfMukwCLcBGAsYHQ/s1600/1-min.jpg',
   'https://2.bp.blogspot.com/-pkBo4euuNjE/Xcg-ljg1BaI/AAAAAAAAAew/fkErSFYsUiMnUE7UL8rlHTR3orpL65SXQCLcBGAsYHQ/s1600/2-min.jpg',
   'https://1.bp.blogspot.com/-_2IL0vYZARQ/Xcg-lvLBawI/AAAAAAAAAes/9RuuIcFV7gEzf5eIafB3rMK79tt3hsWVgCLcBGAsYHQ/s1600/3-min.jpg',
