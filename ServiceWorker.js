@@ -1,4 +1,4 @@
-var cacheNames = 'cache-oiy75';
+var cacheNames = 'cache-traw';
 var fileCache = [
   './favicon.ico',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io/src/img/1-min.jpg',
@@ -9,7 +9,7 @@ var fileCache = [
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io/src/img/thumbnail-yt.webp',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io/src/img/SAMPM.jpg',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@2e3ecd3/src/js/jquery.js',
-  'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@2e3ecd3/src/css/bootstrap.css',
+  'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@f9ea282/src/css/bootstrap.css',
   'https://cdn.jsdelivr.net/gh/DroidTamvan/droidtamvan.github.io@043a2d5/src/js/bootstrap.js'
 ];
 
